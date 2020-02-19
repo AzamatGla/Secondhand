@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer(app);
 
-mongoose.connect('mongodb+srv://azamat:zapashna12@cluster0-vsws3.mongodb.net/restful?authSource=admin&replicaSet=Cluster0-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true',
+mongoose.connect('mongodb+srv:',
 {
     useNewUrlParser: true,
     useUnifiedTopology: true
